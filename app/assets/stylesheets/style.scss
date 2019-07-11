@@ -91,15 +91,15 @@ a {
 .btn {
     @include basePadding(8px 20px);
     font-size: 14px;
-    border: 2px solid #fff;
-    color: #fff;
+    border: 2px solid rgb(218, 216, 216);
+    color: rgb(218, 216, 216);
     font-weight: bold;
     text-align: center;
     border-radius: 3px;
     display: inline-block;
   &:hover {
-    border-color: lighten(#757575, 15%);
-    color: lighten(#757575, 15%);
+    border-color: lighten(#626161, 15%);
+    color: lighten(#626161, 15%);
   }
 }
 
@@ -263,7 +263,7 @@ div.contents.row {
         width: 80px;
         right: 0;
         font-size: 15px;
-        background-color: #d0e1e2;
+        background-color: #e4dfdf;
         border: 1px solid #ddd;
         display: none;
         box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
@@ -337,13 +337,13 @@ div.contents.row {
     }
     input[type="submit"] {
       @extend .transition;
-      background-color: #b388ff;
+      background-color: #1b7174;
       border-radius: 20px;
-      color: #ede7f6;
+      color: #fff;
       border: 0;
       font-size: 18px;
       &:hover {
-        background-color: lighten(#b388ff, 10%);
+        background-color: #115152;
       }
     }
   }
@@ -360,7 +360,7 @@ div.contents.row {
 }
 footer {
   @include boxBase;
-  color: $gray;
+  color: #085a52;
   p {
     text-align: center;
   }
