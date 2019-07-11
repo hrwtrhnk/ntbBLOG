@@ -11,7 +11,7 @@ class BlogsController < ApplicationController
   end
 
   def create
-    Blog.create(name: blog_params[:name], text: blog_params[:text], user_id: current_user.id)
+    Blog.create(text: blog_params[:text], user_id: current_user.id)
   end
 
   def destroy
